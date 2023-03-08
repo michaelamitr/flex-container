@@ -1,5 +1,27 @@
 /*Tady piš svůj kód*/
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.content {
+  display: flex;
+}
+
 /*-------------*/
 *,
 :before,
@@ -8,6 +30,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #2c3e66;
@@ -16,6 +39,7 @@ body {
 
 .layout {
   min-height: 100vh;
+  display: flex;
 }
 
 .sidebar {
